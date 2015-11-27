@@ -1,0 +1,21 @@
+{
+    "name": "bdart/yii2-fb-validator",
+    "description": "Validate the signed_request key of facebook for an double auth login in an REST application",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Daniel Fiebig",
+            "email": "mail@dfiebig.de"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "bdart\\validator\\": ""
+        }
+    }
+}
